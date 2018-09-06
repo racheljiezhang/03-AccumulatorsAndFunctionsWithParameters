@@ -16,6 +16,13 @@ import rosegraphics as rg
 def main():
     """ Calls the other functions to demonstrate and/or test them. """
     # Test your functions by putting calls to them here:
+    print_sequence1()
+    draw_circles1()
+    print_sequence2()
+    draw_circles2()
+    print_sequence3()
+    draw_circles3()
+    print_cosines()
     draw_cosines_and_sines()
 
 
@@ -264,7 +271,7 @@ def print_cosines():
 
     print()
     print('--------------------------------------------------')
-    print('Finished running print_sequence3')
+    print('Finished running print_cosines')
     print('--------------------------------------------------')
 
 
